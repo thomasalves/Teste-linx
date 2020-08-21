@@ -6,23 +6,28 @@
 
 }
 
+/* HEAD */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .head{
-    width: 75vw;
+    width: 100vw;
     height: 84vh;
+    margin-bottom: 4rem;
 
 
-    border-right: 75vh solid #707070;
-    border-bottom: 250px solid transparent;
+    border-right: 400px solid #707070;
+
+    border-bottom: 150px solid transparent;
 }
 
 
 .text{
+    width: 100vw;
+    height: 45vh;
 
-
-    width: 75vw;
-    height: 38vh;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3rem 1.2rem 0rem 1.2rem;
+    padding: 4rem 1.2rem 0rem 1.2rem;
 
 
 }
@@ -33,13 +38,13 @@
 .text h1{
 
     text-align: left;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     line-height: 49px;
     font-weight: bold;
     letter-spacing: 0px;
     color: #FFFFFF;
     padding-bottom: 1.2rem;
-    width: 75vw;
+
 
 
 
@@ -49,8 +54,9 @@
 
 .text p {
 
+
     line-height: 24px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: normal;
 
     color: #FFFFFF;
@@ -78,7 +84,7 @@
 
 button{
 
-    margin: .8rem;
+    margin: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,3 +92,105 @@ button{
     cursor: pointer;
 
 }
+
+/* HEAD */
+
+/* AJUDE O ALGORITMO */
+
+.main{
+
+    margin: 1rem;
+    display: block;
+    justify-content: center;
+
+}
+
+.help h4{
+    font-size: 1.3rem;
+    color: #888888;
+}
+
+.help p {
+    color: #888888;
+    font-size: .9rem;
+    text-align: justify;
+}
+
+.help{
+    margin-bottom: 2rem;
+}
+
+.form h4{
+    color: #707070;
+    font-weight: normal;
+    margin-left: .5rem;
+}
+.form input{
+    margin: .7rem .2rem;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+}
+
+input#feminino{
+    margin-left: .5rem
+    ;
+}
+
+input.button{
+    height: 7vh;
+    background: white;
+    border: 1px solid #777777;
+}
+
+div.checkbox{
+    margin-top: 1rem;
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    align-content: center;
+}
+
+.checkbox input {
+    height: 3vh;
+    padding: 1rem;
+}
+/* AJUDE O ALGORITMO */
+
+/* SELECT */
+
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    width: 100%;
+    position: absolute;
+    margin: 50px 0;
+    height: .2vh;
+    background: #888888;
+    z-index: 0;
+}
+
+.title{
+    z-index: 1;
+    background: white;
+    margin: -10px auto;
+    height: 10vh;
+    width: 60vw;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #777777;
+    font-weight: normal;
+
+
+
+}
+
+
+
+
+/* SELECT */
