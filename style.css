@@ -13,39 +13,43 @@ body{
 
 .head{
     width: 100vw;
-    height: 84vh;
-    margin-bottom: 4rem;
+    height: 80vh;
+    margin-bottom: 2rem;
+    display: inline-block;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    justify-self: center;
+    justify-items: center;
+    background: transparent;
+	border-bottom: 10rem solid transparent;
+	border-right: 25rem solid #707070;
 
 
-    border-right: 400px solid #707070;
-
-    border-bottom: 150px solid transparent;
 }
+
+
+
+
 
 
 .text{
     width: 100vw;
-    height: 45vh;
-
-    padding: 4rem 1.2rem 0rem 1.2rem;
+    height: 40vh;
+    padding: 4rem 1rem 0rem 1rem;
 
 
 }
 
-
-
-
 .text h1{
 
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 49px;
     font-weight: bold;
     letter-spacing: 0px;
     color: #FFFFFF;
-    padding-bottom: 1.2rem;
-
-
+    padding-bottom: 1rem;
 
 
 }
@@ -78,6 +82,9 @@ body{
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
 
 
 }
@@ -106,18 +113,23 @@ button{
 }
 
 .help h4{
+
     font-size: 1.3rem;
     color: #888888;
+
+    margin: auto;
 }
 
 .help p {
     color: #888888;
     font-size: .9rem;
     text-align: justify;
+
 }
 
 .help{
     margin-bottom: 2rem;
+
 }
 
 .form h4{
@@ -134,17 +146,17 @@ button{
 }
 
 input#feminino{
-    margin-left: .5rem
-    ;
+    margin-left: .5rem;
 }
 
 input.button{
-    height: 7vh;
+    height: 10vh;
     background: white;
     border: 1px solid #777777;
+    margin-top: 2rem;
 }
 
-div.checkbox{
+.checkbox{
     margin-top: 1rem;
     display: flex;
     width: 50vw;
