@@ -43,7 +43,7 @@ body{
 .text h1{
 
     text-align: left;
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 49px;
     font-weight: bold;
     letter-spacing: 0px;
@@ -138,6 +138,7 @@ button{
 .form input{
     margin: .7rem .2rem;
     width: 90vw;
+
     display: flex;
     justify-content: center;
     height: 5vh;
@@ -151,21 +152,19 @@ input.button{
     height: 10vh;
     background: white;
     border: 1px solid #777777;
-    margin-top: 2rem;
+    margin: 2rem auto;
+
 }
 
 .checkbox{
     margin-top: 1rem;
     display: flex;
-    width: 50vw;
+    width: 55vw;
     align-items: center;
     align-content: center;
 }
 
-.checkbox input {
-    height: 3vh;
-    padding: 1rem;
-}
+
 /* AJUDE O ALGORITMO */
 
 /* SELECT */
@@ -173,6 +172,7 @@ input.button{
 .root{
     display: flex;
     justify-content: center;
+    margin-bottom: 7rem;
 }
 
 .line{
@@ -182,6 +182,7 @@ input.button{
     height: .2vh;
     background: #888888;
     z-index: 0;
+
 }
 
 .title{
@@ -198,9 +199,139 @@ input.button{
 
 
 
+
 }
 
 
 
-
 /* SELECT */
+
+/* Sua Seleçao especial*/
+
+.row{
+    display: flex;
+
+}
+
+
+.col-md-4 {
+    display: flex;
+    align-items: center;
+
+    margin: 1rem auto;
+    height: 200px;
+    max-height: 350px;
+    background-color: white;
+
+}
+.card-img {
+    height: 30vh;
+    width: 100vw;
+
+
+}
+
+.card-body{
+    width: 100%;
+    display: block;
+    margin: 2rem;
+    color: #777777;
+}
+
+.name{
+    font-size: .875rem;
+
+    padding: .9rem auto;
+}
+
+.oldPrice{
+    font-size: .7rem;
+    padding-bottom: .9rem;
+}
+
+.price{
+    font-size: 1rem;
+    padding-bottom: .9rem;
+}
+
+.parcel{
+    font-size: .7rem;
+}
+
+.buying{
+    width: 100%;
+    height:2.25rem;
+    margin: 1rem 0;
+    background: #ffffff;
+    color: #777777;
+    border: 1px solid #777777;
+}
+
+/* Sua Seleçao especial*/
+
+/* Compartilhe a novidade */
+
+.compartilhe{
+    display: inline-block;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+  
+}
+
+.compartilhe p {
+    color: #888888;
+    font-size: .8rem;
+
+    text-align: center;
+}
+.compartilhe input{
+    width: 90vw;
+    height: 6vh;
+}
+
+.compartilhe h4{
+    margin: 1rem auto;
+    color: #888888;
+    font-size: .8rem;
+    font-weight: normal;
+}
+
+.compartilhe button{
+    width: 60vw;
+    height: 8vh;
+    justify-self: center;
+    margin: 2rem 4rem;
+    background-color: #FFFFFF;
+    border: 1px solid #888888;
+    color: #888888;
+    font-size: 1rem;
+}
+
+/* Compartilhe a novidade */
+
+/*footer */
+
+footer{
+
+    height: 25vh;
+    display: block;
+    text-align: center;
+
+
+    background: transparent;
+    border-top: 4rem solid transparent;
+    border-right: 22.5rem solid #777777;
+}
+
+.footer{
+
+    color: #FFFFFF;
+    width: 100vw;
+    font-size: .8rem;
+    margin-top: 1rem;
+
+
+
+
+/*footer */
