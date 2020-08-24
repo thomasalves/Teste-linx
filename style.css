@@ -4,6 +4,7 @@
     box-sizing: border-box;
     outline: 0;
 
+
 }
 
 /* HEAD */
@@ -149,8 +150,10 @@ input#feminino{
 }
 
 input.button{
-    height: 10vh;
+    height: 8vh;
+    font-size: 1rem;
     background: white;
+    color: #777777;
     border: 1px solid #777777;
     margin: 2rem auto;
 
@@ -218,7 +221,7 @@ input.button{
     display: flex;
     align-items: center;
 
-    margin: 1rem auto;
+    margin: 1rem 1rem;
     height: 200px;
     max-height: 350px;
     background-color: white;
@@ -267,6 +270,21 @@ input.button{
     border: 1px solid #777777;
 }
 
+#next{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+}
+
+#next button{
+    width: 60vw;
+    color: #777777;
+    border: 1px solid #777777;
+    background: #FFFFFF;
+    font-size: 1rem;
+}
+
 /* Sua Seleçao especial*/
 
 /* Compartilhe a novidade */
@@ -280,8 +298,11 @@ input.button{
 .compartilhe p {
     color: #888888;
     font-size: .8rem;
-
+    margin: 1rem;
     text-align: center;
+}
+.friend{
+    margin-left: 1rem;
 }
 .compartilhe input{
     width: 90vw;
@@ -299,7 +320,7 @@ input.button{
     width: 60vw;
     height: 8vh;
     justify-self: center;
-    margin: 2rem 3.4rem;
+    margin: 2rem 4.5rem;
     background-color: #FFFFFF;
     border: 1px solid #888888;
     color: #888888;
@@ -319,7 +340,7 @@ footer{
 
     background: transparent;
     border-top: 4rem solid transparent;
-    border-right: 22.5rem solid #777777;
+    border-right: 24rem solid #777777;
 }
 
 .footer{
@@ -333,7 +354,60 @@ footer{
 }
 
 /*footer */
+/* celuar de tela grande */
+@media (min-width: 400px){
 
+    .head{
+
+        border-right: 28.3rem solid #777777;
+    }
+    .help{
+        margin-right: 1rem;
+    }
+
+    input.button {
+        margin-left: 0rem;
+        width: 90vw;
+    }
+
+    .friend{
+        margin-left: 0.5rem;
+    }
+
+    footer{
+        width: 100%;
+        border-right: 28.3rem solid #777777;
+    }
+
+    footer p {
+       margin: 0;
+    }
+}
+
+@media (min-width: 400px){
+
+    .head{
+        border-right: 35.8rem solid #777777;
+    }
+
+    .text{
+        margin-bottom: 30px;
+    }
+
+    footer{
+        height: 10rem;
+        border-right: 35.8rem solid #777777;
+    }
+
+    .card-img{
+        height: 40vh;
+    }
+
+}
+
+
+
+/* celuar de tela grande */
 /* para Desktop */
 
  @media (min-width: 1100px) {
@@ -445,8 +519,8 @@ html{
     flex-wrap: wrap;
     width: 100%;
     margin-top: 5rem;
-    margin-left: 4rem;
     flex-direction: row;
+    justify-content: center;
   }
   .buying{
       width: 60%;
@@ -455,7 +529,7 @@ html{
   .col-md-4{
     height: 30%;
     display: block;
-    max-width: 25%;
+    max-width: 20%;
 
 
   }
@@ -469,7 +543,14 @@ html{
       height: 50%;
       display: flex;
       justify-content: center;
+      align-items: center;
+      margin-left: 20px;
   }
+
+    #next button{
+    width: 20vw;
+  }
+
 
 
  /* SUA SELEÇÃO */
