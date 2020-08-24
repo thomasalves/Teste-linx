@@ -32,43 +32,49 @@
     </header>
 
     <div class="main">
-
-        <div class='help'>
-            <h4>Ajude o algorítmo a ser mais certeiro</h4>
-            <br>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a
-                type specimen book. It has survived not only five centuries,
-                but also the leap into electronic typesetting, remaining
-                essentially unchanged. It was popularised in the 1960s
-                <br><br>
-                with the release of Letraset sheets containing Lorem Ipsum
-                passages, and more recently with desktop publishing software
-                like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-        </div>
-
-        <div class="form">
-            <form >
-                <h4>Seu nome:</h4>
-                <input type="text" name="name" id="name">
-                <h4>E-mail</h4>
-                <input type="email" name="email" id="email">
-                <h4>CPF:</h4>
-                <input type="number" name="cpf" id="cpf">
-                <div class="checkbox">
-                    <input type="radio" name="opcao" value="masculino"  id="" >
-                        <h4>Masculino</h4>
-                    <input type="radio" name="opcao"  value="feminino" id="feminino">
-                        <h4>Feminino</h4>
+        <div class="container">
+            <div class="col">
+                <div class='help'>
+                    <h4>Ajude o algorítmo a ser mais certeiro</h4>
+                    <br>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a
+                        type specimen book. It has survived not only five centuries,
+                        but also the leap into electronic typesetting, remaining
+                        essentially unchanged. It was popularised in the 1960s
+                        <br><br>
+                        with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software
+                        like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
                 </div>
-                <input class="button" type="button" value="Enviar">
+            </div>
+            <div class="col">
+                <div class="form">
+                    <form >
+                        <h4>Seu nome:</h4>
+                        <input type="text" name="name" id="name">
+                        <h4>E-mail</h4>
+                        <input type="email" name="email" id="email">
+                        <h4>CPF:</h4>
+                        <input type="number" name="cpf" id="cpf">
+                        <div class="checkbox">
+                            <input type="radio" name="opcao" value="masculino"  id="" >
+                                <h4>Masculino</h4>
+                            <input type="radio" name="opcao"  value="feminino" id="feminino">
+                                <h4>Feminino</h4>
+                        </div>
+                        <input class="button" type="button" value="Enviar">
 
-            </form>
+                    </form>
+                </div>
+            </div>
         </div>
+    </div>
+
 
 
         <div class="root">
@@ -79,7 +85,11 @@
             </div>
         </div>
 
-        <div id="row"></div>
+        <div id="row">
+            <div  class="card-wrapper">
+                <div class="card-container"></div>
+            </div>
+        </div>
 
         <div class="root">
             <div class="line">
@@ -93,13 +103,19 @@
             <p>Quer que seus amigos também ganhem a lista personalizada deles?
                 Preencha agora!
             </p>
-
-            <h4>Nome do seu amigo:</h4>
-            <input type="text" >
-            <h4>E-mail dele</h4>
-            <input type="email">
-
-            <button>Enviar agora</button>
+                <div class="friend">
+                    <div class="nome">
+                        <h4>Nome do seu amigo:</h4>
+                        <input type="text" >
+                    </div>
+                    <div class="email">
+                    <h4>E-mail dele</h4>
+                    <input type="email">
+                     </div>
+                    </div>
+                    <div class="button">
+                        <button>Enviar agora</button>
+                    </div>
         </div>
 
 
