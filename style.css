@@ -7,9 +7,13 @@
 
 }
 
+
+
 /* HEAD */
 body{
     font-family: Arial, Helvetica, sans-serif;
+
+
 }
 
 .head{
@@ -213,6 +217,8 @@ input.button{
 
 .row{
     display: flex;
+    justify-content: center;
+
 
 }
 
@@ -249,12 +255,14 @@ input.button{
 
 .oldPrice{
     font-size: .7rem;
+    padding-top: .5rem;
     padding-bottom: .9rem;
 }
 
 .price{
     font-size: 1rem;
     padding-bottom: .9rem;
+    font-weight: bold;
 }
 
 .parcel{
@@ -336,7 +344,7 @@ footer{
     height: 25vh;
     display: block;
     text-align: center;
-
+    box-sizing: border-box;
 
     background: transparent;
     border-top: 4rem solid transparent;
@@ -359,7 +367,7 @@ footer{
 
     .head{
 
-        border-right: 28.3rem solid #777777;
+        border-right: 29rem solid #777777;
     }
     .help{
         margin-right: 1rem;
@@ -376,7 +384,8 @@ footer{
 
     footer{
         width: 100%;
-        border-right: 28.3rem solid #777777;
+        border-right: 29rem solid #777777;
+        margin-right: 200rem;
     }
 
     footer p {
@@ -384,10 +393,10 @@ footer{
     }
 }
 
-@media (min-width: 400px){
+@media (min-width: 600px){
 
     .head{
-        border-right: 35.8rem solid #777777;
+        border-right: 39.3rem solid #777777;
     }
 
     .text{
@@ -396,15 +405,52 @@ footer{
 
     footer{
         height: 10rem;
-        border-right: 35.8rem solid #777777;
+        border-right: 39.3rem solid #777777;
     }
 
     .card-img{
+        width: 30vw;
         height: 40vh;
+
+    }
+
+    .buying{
+        width: 20vw;
+    }
+
+    .row{
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+
+    }
+    .card-body{
+        width: 20vw;
+    }
+    .col-md-4{
+        justify-content: center;
+        margin-top: 4rem;
+
     }
 
 }
 
+@media (min-width: 800px){
+    .head{
+        border-right: 51.9rem solid #777777;
+    }
+
+    footer{
+        border-right: 51.9rem solid #777777;
+    }
+
+    .friend{
+     padding: 20px;
+    }
+    .button{
+        padding-left: 90px;
+    }
+}
 
 
 /* celuar de tela grande */
