@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+
+}
+/* HEAD */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: #777777;
+}
+.head{
+
+    height: 40vh;
+    width: 90%;
+    margin: 0;
+
+    margin-bottom: 2rem;
+    display: inline-block;
+    box-sizing: border-box;
+
+    justify-content: center;
+    align-items: center;
+
+
+    border-bottom: 5rem solid transparent;
+	border-right: 85.4em solid #707070;
+ }
+
+ .text{
+    width: 100vw;
+    height: 38vh;
+    padding: 3rem 1rem 0rem 1rem;
+
+ }
+
+ .text h1 {
+     text-align: center;
+     font-size: 3rem;
+     line-height: 49px;
+     font-weight: bold;
+     letter-spacing: 0px;
+     color: #FFFFFF;
+     padding-bottom: 1rem;
+     margin: 1rem;
+ }
+
+ .text p {
+     font-size: 1.2rem;
+
+    line-height: 24px;
+    text-align: center;
+    font-weight: normal;
+
+    color: #FFFFFF;
+ }
+
+
+ button{
+
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/* PRODUTOS */
+.row{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 100vw;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 1.5rem;
+    color: #808080;
+    margin: .5rem;
+}
+
+.container p {
+    height: 5vh;
+    font-size: .9rem;
+    color: #808080;
+    margin-bottom: 0;
+}
+
+#card{
+    margin: 1.5rem ;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.col-md-4{
+    margin: 2rem;
+    height: 30%;
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+    color: #888888;
+}
+.card-img{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+
+    align-items: center;
+    margin-left: 0px;
+
+}
+
+img.card-img {
+    width: 50%;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+
+}
+
+.card-body{
+    margin: 1rem
+}
+
+.card-body p {
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+.buying{
+    width: 90%;
+    height: 7vh;
+    color: #888888;
+    background: #FFFFFF;
+    border: 1px solid #707070
+}
+.button{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+}
+
+.button button{
+    width: 35vw;
+    height: 7vh;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    color: #888888;
+}
+
+/* PRODUTOS */
+
+/* FOOTER */
+footer{
+
+    height: 25vh;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+
+    background: transparent;
+    border-top: 4rem solid transparent;
+    border-right: 85.4rem solid #707070;
+}
+
+.footer{
+
+    color: #FFFFFF;
+    width: 100vw;
+    font-size: .9rem;
+    margin-top: 1rem;
+
+
+}
+
+/* FOOTER */

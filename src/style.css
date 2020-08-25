@@ -34,7 +34,10 @@ body{
 
 
 
-
+a{
+    text-decoration: none;
+    color: #808080;
+}
 
 
 .text{
@@ -80,6 +83,7 @@ body{
     background-color: #FFFFFF;
     color: #888888;
     height: 8vh;
+    opacity: 1;
 }
 
 .buttons{
@@ -100,7 +104,13 @@ button{
     align-items: center;
     border-radius: 5px;
     cursor: pointer;
+    opacity: 0.5;
 
+
+}
+
+button:hover{
+    opacity: 1;
 }
 
 /* HEAD */
@@ -136,7 +146,7 @@ button{
 }
 
 .form h4{
-    color: #707070;
+    color: #808080;
     font-weight: normal;
     margin-left: .5rem;
 }
@@ -157,10 +167,16 @@ input.button{
     height: 8vh;
     font-size: 1rem;
     background: white;
-    color: #777777;
+    color: #808080;
     border: 1px solid #777777;
     margin: 2rem auto;
+    opacity: 0.5;
+    cursor: pointer;
 
+}
+
+input.button:hover{
+    opacity: 1;
 }
 
 .checkbox{
@@ -201,7 +217,7 @@ input.button{
     align-items: center;
     text-align: center;
     position: relative;
-    color: #777777;
+    color: #808080;
     font-weight: normal;
 
 
@@ -244,7 +260,7 @@ input.button{
     width: 100%;
     display: block;
     margin: 2rem;
-    color: #777777;
+    color: #808080;
 }
 
 .name{
@@ -274,7 +290,7 @@ input.button{
     height:2.25rem;
     margin: 1rem 0;
     background: #ffffff;
-    color: #777777;
+    color: #808080;
     border: 1px solid #777777;
 }
 
@@ -287,7 +303,7 @@ input.button{
 
 #next button{
     width: 60vw;
-    color: #777777;
+    color: #808080;
     border: 1px solid #777777;
     background: #FFFFFF;
     font-size: 1rem;
@@ -368,6 +384,7 @@ footer{
     .head{
 
         border-right: 29rem solid #777777;
+        box-sizing: border-box;
     }
     .help{
         margin-right: 1rem;
@@ -386,6 +403,7 @@ footer{
         width: 100%;
         border-right: 29rem solid #777777;
         margin-right: 200rem;
+        box-sizing: border-box;
     }
 
     footer p {
@@ -396,7 +414,7 @@ footer{
 @media (min-width: 600px){
 
     .head{
-        border-right: 39.3rem solid #777777;
+        border-right: 37.95rem solid #777777;
     }
 
     .text{
@@ -405,7 +423,7 @@ footer{
 
     footer{
         height: 10rem;
-        border-right: 39.3rem solid #777777;
+        border-right: 37.95rem solid #777777;
     }
 
     .card-img{
@@ -438,10 +456,12 @@ footer{
 @media (min-width: 800px){
     .head{
         border-right: 51.9rem solid #777777;
+        box-sizing: border-box;
     }
 
     footer{
         border-right: 51.9rem solid #777777;
+        box-sizing: border-box;
     }
 
     .friend{
@@ -531,8 +551,10 @@ html{
      width: 30vw;
  }
  input.button{
-     width: 15vw;
+     width: 30.4vw;
      height: 8vh;
+     display: flex;
+     padding: 0;
  }
 
  .checkbox{
@@ -636,6 +658,13 @@ html{
 
 .compartilhe button{
     width: 20vw;
+    padding: 0;
+    margin: 0;
+
+}
+
+.button{
+    padding: 0;
 }
 
  /* COMPARTILHE */
