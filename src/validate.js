@@ -14,8 +14,8 @@ function validacao(field, name) {
         (dominio.indexOf(".") >=1)&&
         (dominio.lastIndexOf(".") < dominio.length - 1) &&
         (capturando.length >= 8)){
-       alert("Dados corretos")
-       window.location.href = "../pages/news.html";
-    }
+            window.location.href = "../pages/news.html";
+            alert("Dados corretos")
+         }
 
     }
