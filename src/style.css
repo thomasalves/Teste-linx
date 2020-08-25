@@ -331,6 +331,8 @@ input.button:hover{
 .compartilhe input{
     width: 90vw;
     height: 6vh;
+    display: flex;
+    justify-content: center;
 }
 
 .compartilhe h4{
