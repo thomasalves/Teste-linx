@@ -589,6 +589,7 @@ html{
     margin-top: 5rem;
     flex-direction: row;
     justify-content: center;
+    justify-items: center;
   }
   .buying{
       width: 60%;
@@ -599,11 +600,16 @@ html{
     display: block;
     max-width: 20%;
 
+    justify-items: center;
+
 
   }
 
   .card-body{
       width: 20vw;
+      justify-content: center;
+      margin-left: 50px;
+
   }
 
   .card-img{
@@ -612,7 +618,8 @@ html{
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-left: 20px;
+      margin-left: 50px;
+
   }
 
     #next button{
