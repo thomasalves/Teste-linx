@@ -17,7 +17,7 @@ Assim que obter os dados, você deverá implementar os seguintes pontos:
 - O formulário de newsletter com o título Compartilhe a novidade deve ter seus campos de input validados de acordo com o conteúdo (ex: O campo de email deve conter um email válido);
 
 
-#O que foi feito
+# O que foi feito
 
 Para realizar esse desafio foi utilizado o conceito de mobile frist, onde primeiramente foi feito a pagina mobile, para após fazer a responsividade para desktop, devido a grande variedade de telas para celulares, tentei abordar a maior quantidade de telas que tinha disposivel para testes.
 
@@ -28,7 +28,7 @@ como foi pedido, a paginação foi feita com 8 item por pagina, e isso também s
 Para consumir a API, utlizei o metodo em javascript, o fetch, após ter os dados montei em forma de grade como foi pedido.
 
 
-#Para Randerizar
+# Para Randerizar
 
 para Randerizar é preciso somente baixar do repositório utilizando:
 
