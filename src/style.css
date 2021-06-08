@@ -479,7 +479,7 @@ footer{
 /* celuar de tela grande */
 /* para Desktop */
 
- @media (min-width: 1100px) {
+ @media (min-width: 1000px) {
 
 html{
     width: 100%;
@@ -492,7 +492,7 @@ html{
     margin: 0;
 
     border-bottom: 10rem solid transparent;
-	border-right: 100em solid #707070;
+	border-right: 80em solid #707070;
  }
 
  .text{
@@ -684,7 +684,7 @@ footer{
 
     background: transparent;
     border-top: 4rem solid transparent;
-    border-right: 100rem solid #777777;
+    border-right: 80rem solid #777777;
 }
 
 
@@ -693,3 +693,218 @@ footer{
 
 
  }
+
+ @media (min-width: 1100px) {
+
+    html{
+        width: 100%;
+        overflow-x: hidden;
+    }
+     .head{
+    
+        height: 55vh;
+        width: 100vw;
+        margin: 0;
+    
+        border-bottom: 10rem solid transparent;
+        border-right: 100em solid #707070;
+     }
+    
+     .text{
+         display: inline-block;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         height: 25vh;
+     }
+    
+     .text h1 {
+         text-align: center;
+         font-size: 3rem;
+     }
+    
+     .text p {
+         font-size: 1rem;
+     }
+    
+     .buttons{
+         display: flex;
+         width: 100vw;
+         justify-content: center;
+         align-items: center;
+     }
+    
+     .buttons button {
+         width: 10vw;
+     }
+    
+     body{
+         width: 100%;
+         display: inline-block;
+         justify-content: center;
+    
+     }
+    
+     .main{
+         display: flex;
+         width: 100vw;
+         justify-content: center;
+     }
+     .container{
+         display: flex;
+         width: 70%;
+    
+    
+     }
+     .col{
+         width: 50vw;
+         margin: 1.5rem;
+     }
+    
+     .col input {
+         width: 30vw;
+     }
+     input.button{
+         width: 30.4vw;
+         height: 8vh;
+         display: flex;
+         padding: 0;
+     }
+    
+     .checkbox{
+         width: 15vw;
+         margin-top: 2rem;
+         height: .5vh;
+     }
+    
+     /* SUA SELEÇÃO */
+    
+     .title{
+         width: 25vw;
+         font-size: 1.5rem;
+         margin-top: -.9rem;
+     }
+    
+     .line{
+         width: 100%;
+     }
+    
+    .card-img{
+        width: 50vw;
+        max-height: 200px;
+        margin-bottom: -10px;
+    }
+    
+    
+    #row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 5rem;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+      }
+      .buying{
+          width: 60%;
+      }
+    
+      .col-md-4{
+        height: 30%;
+        display: block;
+        max-width: 20%;
+    
+        justify-items: center;
+    
+    
+      }
+    
+      .card-body{
+          width: 20vw;
+          justify-content: center;
+          margin-left: 50px;
+    
+      }
+    
+      .card-img{
+          width: 50%;
+          height: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 50px;
+    
+      }
+    
+        #next button{
+        width: 20vw;
+      }
+    
+    
+    
+     /* SUA SELEÇÃO */
+    
+    
+     /* COMPARTILHE */
+    
+     .compartilhe{
+    
+         width: 100vw;
+         display: inline-block;
+    
+    
+     }
+     .friend{
+         display: flex;
+         justify-content: center;
+         margin: 2rem;
+    
+     }
+    .friend input{
+        width: 350px;
+        margin-left: 3rem;
+    
+    }
+    
+    .friend h4 {
+        margin-left: 3rem;
+    }
+    
+    .button{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem;
+    }
+    
+    .compartilhe button{
+        width: 20vw;
+        padding: 0;
+        margin: 0;
+    
+    }
+    
+    .button{
+        padding: 0;
+    }
+    
+     /* COMPARTILHE */
+    
+    /*footer */
+    
+    footer{
+        width: 10vw;
+        height: 25vh;
+    
+    
+        background: transparent;
+        border-top: 4rem solid transparent;
+        border-right: 100rem solid #777777;
+    }
+    
+    
+    /*footer */
+    
+    
+    
+     }
